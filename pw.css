@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    color:#777;
+    text-decoration:none;
+}
+
+.nav a:hover {
+    color: #618685;
+    font-weight: bolder;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.main-nav li {
+    padding: 60px;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+h1.homepage-message {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    overflow: hidden;
+    border-right: .15em solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 4s steps(40, end), blink-caret .80s step-end infinite;
+}
+
+@keyframes typing {
+    from {width:0}
+    to {width:100%}
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% { border-color: rgba(255,255,255,.75);}
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height:200px;
+}
+
+.section-header {
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #777;
+    text-align: center;
+    font-size: 1.6em;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+img.my-picture {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 15px solid #b1cbbb;
+}
+
+.intro {
+    font-weight: lighter;
+    color: #333;
+    padding-bottom:20px;
+    font-size: 1.1em;
+}
+
+.table {
+    display: table;
+    border-color: none;   
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tr,th {
+    padding:15px; 
+    color:#b1cbbb;
+    font-size: 1.4em;
+}
+
+.tr, td {
+    border-spacing: 5px; 
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.contact-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    margin: 30px;
+}
+
+.contact-image-nav img {
+    width:150px;
+    height:150px;
+}
+
+.contact-image-nav li {
+    padding: 0 .5em;
+}
+
+.contact-image-nav a:hover{
+    opacity: 0.7;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    margin: 30px;
+}
+
+.portfolio-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.portfolio-item-image {
+    width: 220px;
+    height: 190px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.description1 {
+    width:220px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.description2 {
+    width:220px;
+    text-align: center;
+}
+
+.portfolio-nav {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.portfolio-nav1{
+    display: flex;
+    width: 220px; 
+    height: .5px;
+    justify-content: center;
+}
+
+.portfolio-nav2{
+    display: flex;
+    width: 220px;
+    height: .5px;
+    justify-content: center;
+}
+
+.portfolio-nav a {
+    color: #b1cbbb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.portfolio-nav a:hover {
+    color: #618685;
+}
+
+
+
