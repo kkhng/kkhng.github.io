@@ -59,7 +59,7 @@ h1.homepage-message {
     border-right: .15em solid rgba(255,255,255,.75);
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 4s steps(40, end), blink-caret .80s step-end infinite;
+    animation: typing 5s steps(40, end), blink-caret .85s step-end infinite;
 }
 
 @keyframes typing {
